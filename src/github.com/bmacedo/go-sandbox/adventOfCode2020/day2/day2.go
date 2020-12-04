@@ -1070,7 +1070,11 @@ func readLines() []string {
 		16-18 m: mmtmrxmmmmmmmmmcmmm
 		9-11 b: bkbltdvbtwbbtsb
 	`
-	scanner := bufio.NewScanner(strings.NewReader(input))
+	return splitLines(input)
+}
+
+func splitLines(s string) []string {
+	scanner := bufio.NewScanner(strings.NewReader(s))
 	scanner.Split(bufio.ScanLines)
 
 	var lines []string
