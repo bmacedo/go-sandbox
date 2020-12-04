@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Go Mockery",
+            "type": "shell",
+            "command": "mockery -all",
+        },
+        // The next three assumes a main package exists in project or workspace root
+        {
+            "label": "Go Run",
+            "type": "shell",
+            "command": "go run ./src/github.com/bmacedo/go-sandbox",
+            "problemMatcher": [
+                "$go"
+            ],
+        },
+        {
+            "label": "Go Build",
+            "type": "shell",
+            "command": "go build ./src/github.com/bmacedo/go-sandbox",
+"problemMatcher": [
+                "$go"
+            ],
+        },
+        {
+            "label": "Go Build and Run",
+            "type": "shell",
+            "command": "go build ./src/github.com/bmacedo/go-sandbox/ && ./${workspaceFolderBasename}",
+            "problemMatcher": [
+                "$go"
+            ],
+            "group": {
+                 "kind": "build",
+                 "isDefault": true
+            }
+        },
+    ]
+}
