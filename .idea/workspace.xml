@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a3f631-f210-49f9-a172-64a0a4a31ec0" name="Default Changelist" comment="" />
+    <list default="true" id="05a3f631-f210-49f9-a172-64a0a4a31ec0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +18,11 @@
     </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lA33eRYjCfxRBLzdP7lJ5WmLkb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,7 +49,7 @@
       <recent name="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build day1.go">
+  <component name="RunManager" selected="Go Build.go build day2.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-sandbox" />
       <working_directory value="$PROJECT_DIR$" />
@@ -76,8 +83,17 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build day2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-sandbox" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day2.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build day2.go" />
         <item itemvalue="Go Build.go build day1.go" />
         <item itemvalue="Go Build.go build day1.go (1)" />
         <item itemvalue="Go Build.go build Main.go" />
@@ -87,5 +103,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day2.go</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
