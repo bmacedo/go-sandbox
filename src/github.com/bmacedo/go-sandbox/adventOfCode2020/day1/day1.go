@@ -17,7 +17,7 @@ Specifically, they need you to find the two entries that sum to 2020 and then mu
 those two numbers together.
 
 Find the two entries that sum to 2020; what do you get if you multiply them together?
- */
+*/
 func main() {
 	input, err := readInput()
 	if err != nil {
@@ -48,7 +48,7 @@ func multiplyTwoEntriesThatSumToK(input []int, k int) (int, error) {
 
 	for i := range set {
 		if set[k-i] == true {
-			return i*(k-i), nil
+			return i * (k - i), nil
 		}
 	}
 	return 0, fmt.Errorf("there are no pair of entries that sum to 2020")
