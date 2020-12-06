@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a3f631-f210-49f9-a172-64a0a4a31ec0" name="Default Changelist" comment="Day 3">
-      <change afterPath="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day4/day4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day5/day5.go" afterDir="false" />
+    <list default="true" id="05a3f631-f210-49f9-a172-64a0a4a31ec0" name="Default Changelist" comment="Day 5">
+      <change afterPath="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day6/day6.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day1/day1.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day1/day1.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,27 +46,19 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020" />
       <recent name="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day3" />
       <recent name="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day2" />
       <recent name="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day1" />
-      <recent name="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build day5.go">
+  <component name="RunManager" selected="Go Build.go build day6.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-sandbox" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build day3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-sandbox" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day3/day3.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -85,6 +75,14 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day5/day5.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build day6.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-sandbox" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day6/day6.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -109,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build day6.go" />
         <item itemvalue="Go Build.go build day5.go" />
         <item itemvalue="Go Build.go build day4.go" />
         <item itemvalue="Go Test.Test_isValid in day4_test.go" />
         <item itemvalue="Go Test.day4_test.go" />
-        <item itemvalue="Go Build.go build day3.go" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +133,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 2" />
     <MESSAGE value="Day 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3" />
+    <MESSAGE value="Day 4" />
+    <MESSAGE value="Day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
