@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a3f631-f210-49f9-a172-64a0a4a31ec0" name="Default Changelist" comment="Day 5">
-      <change afterPath="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day6/day6.go" afterDir="false" />
+    <list default="true" id="05a3f631-f210-49f9-a172-64a0a4a31ec0" name="Default Changelist" comment="Day 6">
+      <change afterPath="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day7/day7.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
       <recent name="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build day6.go">
+  <component name="RunManager" selected="Go Build.go build day7.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-sandbox" />
       <working_directory value="$PROJECT_DIR$" />
@@ -86,6 +86,14 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build day7.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-sandbox" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day7/day7.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_isValid in day4_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-sandbox" />
       <working_directory value="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day4" />
@@ -96,22 +104,13 @@
       <pattern value="^\QTest_isValid\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="day4_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-sandbox" />
-      <working_directory value="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day4" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/github.com/bmacedo/go-sandbox/adventOfCode2020/day4/day4_test.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build day7.go" />
         <item itemvalue="Go Build.go build day6.go" />
         <item itemvalue="Go Build.go build day5.go" />
         <item itemvalue="Go Build.go build day4.go" />
         <item itemvalue="Go Test.Test_isValid in day4_test.go" />
-        <item itemvalue="Go Test.day4_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -129,13 +128,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 2" />
     <MESSAGE value="Day 3" />
     <MESSAGE value="Day 4" />
     <MESSAGE value="Day 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 5" />
+    <MESSAGE value="Day 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
